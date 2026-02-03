@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import joblib
+import 
 
 st.set_page_config(page_title="AQI Prediction App", layout="centered")
 st.title("Air Quality Index (AQI) Prediction")
