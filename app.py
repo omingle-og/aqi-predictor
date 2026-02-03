@@ -36,4 +36,4 @@ if st.button("Predict AQI"):
     prediction = model.predict(input_data)
     st.success(f"Predicted AQI: {prediction[0]:.2f}")
     category = aqi_category(prediction[0])
-    st.info(f"AQI Category: {category}")
+    st.info(f"AQI Category: {category}")    
